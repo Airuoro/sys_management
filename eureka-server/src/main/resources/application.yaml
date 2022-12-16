@@ -1,0 +1,10 @@
+server:
+  port: 12301
+eureka:
+  instance:
+    hostname: eureka-server
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # I also need a profile specific url

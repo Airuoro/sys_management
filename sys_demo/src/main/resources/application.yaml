@@ -1,9 +1,14 @@
 server:
-  port: 8081
+  port: 12302
 spring:
+  application:
+    name: hello-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/sys_management?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: root
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="271815ae-785c-4401-a1a4-a9cbd6044f1d" name="Changes" comment="" />
+    <list default="true" id="271815ae-785c-4401-a1a4-a9cbd6044f1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sys_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_demo/src/main/java/com/airuoro/incloud/IncloudDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sys_demo/src/main/java/com/airuoro/incloud/IncloudDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_demo/src/main/java/com/airuoro/incloud/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sys_demo/src/main/java/com/airuoro/incloud/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_demo/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sys_demo/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_demo/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sys_demo/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_demo/target/classes/com/airuoro/incloud/IncloudDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sys_demo/target/classes/com/airuoro/incloud/IncloudDemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_demo/target/classes/com/airuoro/incloud/demo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sys_demo/target/classes/com/airuoro/incloud/demo/controller/UserController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +45,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\File\Web\maven-repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../File/Web/apache-maven-3.8.5" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\File\Web\apache-maven-3.8.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -54,13 +64,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2850575" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.IncloudDemoApplication">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.airuoro.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IncloudDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="sys_demo" />
       <extension name="coverage">
@@ -89,7 +115,9 @@
       <option name="presentableId" value="Default" />
       <updated>1670810154753</updated>
       <workItem from="1670810156299" duration="2590000" />
-      <workItem from="1670827550040" duration="8740000" />
+      <workItem from="1670827550040" duration="10675000" />
+      <workItem from="1671169235883" duration="751000" />
+      <workItem from="1671197726760" duration="2307000" />
     </task>
     <servers />
   </component>
